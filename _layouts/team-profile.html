@@ -39,10 +39,10 @@
                     </header>
 
                   {% if page.image %}
-                  <div style="float: left;">
+                  <div style="float: left; width: 20%; min-width: 150px;">
                     <span class="image main">
                   	<picture>
-                  		<img src="{{ page.image | absolute_url }}" alt="Profile picture of {{ page.name }}" style="width: 15%; border-radius: 50%;" />
+                  		<img src="{{ page.image | absolute_url }}" alt="Profile picture of {{ page.name }}" style="width: 100%; border-radius: 50%; min-width: 150px;" />
                		</picture>                          
                     </span>
                   </div>
@@ -55,7 +55,9 @@
                   	 53115 Bonn                     
                   </span>
                   </div>
-
+                  
+              </div>
+              <div class="inner">
                 <div align="justify">{{ content }}</div>
                 <ul style="font-size: smaller;" class="actions">
                         <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
