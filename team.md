@@ -10,8 +10,8 @@ title: Team
                 <picture>
                 <img src="{{ post.image | absolute_url }}" alt="{{ post.image-alt }}" style="border-radius: 50%; width: 100%;"  />
                 </picture> 
-                <p style="margin-top: 10px; color: #444444;">
-                <a style="color: black; font-weight: 400; text-decoration: none;" href="{{ post.url  | absolute_url }}">{{ post.name }}</a> 
+                <p style="margin-top: -10px; color: #444444;">
+                <a style="color: black; font-weight: 400; text-decoration: none;" href="{{ post.url  | absolute_url }}">{{ post.name }}</a> <br/>
                 {{ post.description }}</p>
             </a>
         </article>
