@@ -29,7 +29,7 @@ collections:
     team:
         output: true
     news:
-    	output: true
+        output: true
 
 plugins:
   - jekyll-seo-tag
