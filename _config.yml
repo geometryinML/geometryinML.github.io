@@ -28,6 +28,8 @@ twitter_url: https://twitter.com/andrewbanchich
 collections:
     team:
         output: true
+    news:
+    	output: true
 
 plugins:
   - jekyll-seo-tag
