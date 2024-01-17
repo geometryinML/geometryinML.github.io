@@ -39,26 +39,32 @@
                     </header>
 
                   {% if page.image %}
+                  <div style="float: left;">
                     <span class="image main">
                   	<picture>
                   		<img src="{{ page.image | absolute_url }}" alt="Profile picture of {{ page.name }}" style="width: 15%; border-radius: 50%;" />
                		</picture>                          
                     </span>
+                  </div>
                   {% endif %}
                   
+                  <div style="float: left;">
                   <span class="adress">
                   	 Friedrich-Hirzebruch-Allee 8 </br>
                   	 Room {{ page.room }} </br>
                   	 53115 Bonn                     
                   </span>
+                  </div>
 
                 <div align="justify">{{ content }}</div>
                 <ul style="font-size: smaller;" class="actions">
                         <li><a href="#top" class="button icon fa-angle-double-up">&nbsp;Back to Top</a></li>
                         <li><a href="{{ 'team' | absolute_url  }}" class="button icon fa-code-fork">&nbsp;View Complete Team</a></li>
-                        </ul>
-                        <hr>
+                </ul>
+                <hr>
 
+              
+              </section>
               </div>
           </div>
 
