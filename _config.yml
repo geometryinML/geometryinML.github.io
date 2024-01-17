@@ -1,14 +1,14 @@
 # Site settings
 title: Geometry in Machine Learning Group
-subtitle: by HTML5 UP
+subtitle: University of Bonn and Lamarr Institute
 email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+description: Geometry in Machine Learning Group at the University of Bonn
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://geometryinml.github.io" # the base hostname & protocol for your site
 author: Zorah Lähner
 street_address: 
 city: 
-state: TN
+state: 
 zip_code: 
 country: 
 phone: 

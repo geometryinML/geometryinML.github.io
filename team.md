@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Team
-image: assets/images/pic11.jpg
 ---
 
 <div  class="posts">
