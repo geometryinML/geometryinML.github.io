@@ -40,11 +40,17 @@
 
                   {% if page.image %}
                     <span class="image main">
-                  <picture>
-                  <img src="{{ page.image | absolute_url }}" alt="{{ page.img-alt }}" style="width: 15%; border-radius: 50%;" />
-               </picture>                          
+                  	<picture>
+                  		<img src="{{ page.image | absolute_url }}" alt="Profile picture of {{ page.name }}" style="width: 15%; border-radius: 50%;" />
+               		</picture>                          
                     </span>
-                    {% endif %}
+                  {% endif %}
+                  
+                  <span class="adress">
+                  	 Friedrich-Hirzebruch-Allee 8 </br>
+                  	 Room {{ page.room }} </br>
+                  	 53115 Bonn                     
+                  </span>
 
                 <div align="justify">{{ content }}</div>
                 <ul style="font-size: smaller;" class="actions">
