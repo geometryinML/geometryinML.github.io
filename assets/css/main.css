@@ -4067,3 +4067,8 @@
 	#groupname {
 		color:  #33f3ec;
 	}
+	
+	#logo {
+		align: center;
+		width: 50%;
+	}
