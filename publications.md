@@ -3,8 +3,6 @@ layout: page
 title: Publications
 ---
 
-You can also find my articles on <a href="https://scholar.google.com/citations?user=fMc479MAAAAJ">my Google Scholar profile</a>.
-
 {% for post in site.publications reversed %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
