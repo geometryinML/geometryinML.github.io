@@ -24,6 +24,8 @@ collections:
         output: true
     news:
         output: true
+    publications:
+        output: true
 
 plugins:
   - jekyll-seo-tag
