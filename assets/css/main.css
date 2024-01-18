@@ -3979,7 +3979,7 @@
 
 		#menu ul a, #menu ul span {
 			border-bottom: 0;
-			color: inherit;
+			color: #ccc;
 			cursor: pointer;
 			display: block;
 			font-size: 0.9em;
@@ -4071,4 +4071,10 @@
 	#logo {
 		align: center;
 		width: 50%;
+	}
+	
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
