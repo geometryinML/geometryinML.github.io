@@ -2107,7 +2107,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #f56a6a;
+		color: #f3339a;
 		text-decoration: none;
 	}
 
@@ -4065,5 +4065,5 @@
 		
 /* Additions */
 	#groupname {
-		font-color:  #33f3ec;
+		color:  #33f3ec;
 	}
