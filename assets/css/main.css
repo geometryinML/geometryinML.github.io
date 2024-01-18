@@ -2070,7 +2070,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #7f888f;
+		color: #eee;
 		font-family: "Open Sans", sans-serif;
 		font-size: 13pt;
 		font-weight: 400;
@@ -2121,7 +2121,7 @@
 			}
 
 	strong, b {
-		color: #3d4449;
+		color: #efb7d8;
 		font-weight: 600;
 	}
 

@@ -16,11 +16,11 @@
 
     {% if post.teaser %}
       <div style="float: left;width:170px;height:120px;">
-        <img width="150px" style="margin-right: 20px;" src=
+        <img width="150px" style="margin-right: 20px; padding: 5px; background: #000;" src=
           {% if teaser contains "://" %}
             "{{ post.teaser }}"
           {% else %}
-            "{{ post.teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ post.teaser | prepend: "/assets/images/" | prepend: base_path }}"
           {% endif %}
           alt="">
       </div>
